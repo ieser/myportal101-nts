@@ -1,0 +1,125 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4c3c51bddd01cd835f3ada7d59d22b5f",
+    "packages": [
+        {
+            "name": "bcosca/fatfree",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bcosca/fatfree.git",
+                "reference": "9563e848a403c8e932633f8daef7dda5b2f64ec6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bcosca/fatfree/zipball/9563e848a403c8e932633f8daef7dda5b2f64ec6",
+                "reference": "9563e848a403c8e932633f8daef7dda5b2f64ec6",
+                "shasum": ""
+            },
+            "require": {
+                "bcosca/fatfree-core": "^3.8"
+            },
+            "default-branch": true,
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+            "homepage": "http://fatfreeframework.com/",
+            "support": {
+                "issues": "https://github.com/bcosca/fatfree/issues",
+                "source": "https://github.com/bcosca/fatfree/tree/3.9.0"
+            },
+            "time": "2024-12-29T16:02:38+00:00"
+        },
+        {
+            "name": "bcosca/fatfree-core",
+            "version": "3.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/f3-factory/fatfree-core.git",
+                "reference": "227b3b03315ab86b1601d9e9fd8e07efbedf6ab9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/f3-factory/fatfree-core/zipball/227b3b03315ab86b1601d9e9fd8e07efbedf6ab9",
+                "reference": "227b3b03315ab86b1601d9e9fd8e07efbedf6ab9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "."
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+            "homepage": "http://fatfreeframework.com/",
+            "support": {
+                "issues": "https://github.com/f3-factory/fatfree-core/issues",
+                "source": "https://github.com/f3-factory/fatfree-core/tree/3.9.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.buymeacoffee.com/ikkez",
+                    "type": "buy_me_a_coffee"
+                },
+                {
+                    "url": "https://github.com/ikkez",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-12-31T17:11:04+00:00"
+        },
+        {
+            "name": "ieser/myportal101",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ieser/myportal101.git",
+                "reference": "50fa2d260815475c785883d328351088bee60118"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ieser/myportal101/zipball/50fa2d260815475c785883d328351088bee60118",
+                "reference": "50fa2d260815475c785883d328351088bee60118",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Core\\": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/ieser/myportal101/tree/master",
+                "issues": "https://github.com/ieser/myportal101/issues"
+            },
+            "time": "2025-02-01T15:20:37+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "bcosca/fatfree": 20,
+        "ieser/myportal101": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

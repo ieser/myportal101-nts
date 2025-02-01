@@ -1,0 +1,19 @@
+{
+    "name": "ieser/myportal101-nts",
+    "type": "project",
+    "require": {
+        "bcosca/fatfree": "dev-master",
+        "ieser/myportal101": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ieser/myportal101.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\": "app/Modules/"
+        }
+    }
+}
