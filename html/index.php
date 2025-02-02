@@ -5,7 +5,6 @@ error_reporting(E_ALL);
 date_default_timezone_set("Europe/Rome");
 
 require_once('../vendor/autoload.php');
-require_once('../app/Core/Base/Bootstrap.php');
 
-$core = new \Core\Base\Bootstrap();
-$core->run();
+$bootstrap = new \Core\Base\Bootstrap();
+$bootstrap->run();
